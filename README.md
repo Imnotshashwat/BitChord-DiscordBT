@@ -5,34 +5,34 @@
 > Hijacked your DAC,  
 > Hi-Res badge just for you.
 
-LSPosed / LSPatch module for BitChord. Fakes a Hi-Res Lossless badge on lossy tracks without touching real FLAC or Dolby Atmos streams.
+Xposed module that fakes a Hi-Res Lossless badge in BitChord for regular lossy tracks. Real FLAC, ALAC, and Dolby Atmos streams are untouched.
 
 ---
 
-## What it does
+## What it hooks
 
-- **Now Playing screen** — shows *Hi-Res Lossless* badge on Opus/AAC/MP3 tracks.
-- **Discord Rich Presence** — shows `Hi-Res Lossless • FLAC • 2458 kbps • 24-bit • 96 kHz • Stereo` for lossy tracks.
-- Real addon FLAC, ALAC, WAV, and Dolby Atmos streams are always left untouched.
-- No launcher icon. No settings. Runs silently.
+- **Now playing screen** — lossy tracks (Opus/AAC/MP3) show a Hi-Res Lossless badge instead of their actual quality.
+- **Discord Rich Presence** — shows `Hi-Res Lossless • FLAC • 2458 kbps • 24-bit • 96 kHz • Stereo` for lossy tracks only.
+
+Genuine addon streams keep their real specs. No launcher icon, no settings.
 
 ---
 
 ## Setup
 
-### Rooted — LSPosed
+### Rooted
 
-1. Install [LSPosed](https://github.com/LSPosed/LSPosed) via Magisk or KernelSU.
+1. Install [Vector](https://github.com/JingMatrix/Vector) (LSPosed fork for newer Android).
 2. Download `BitChord-Rickroll.apk` from [Releases](../../releases).
-3. Install it, enable the module in LSPosed scoped to **BitChord**, then force-stop and relaunch BitChord.
+3. Install it, enable the module in Vector scoped to BitChord, then force-stop and relaunch BitChord.
 
-### Non-rooted — LSPatch
+### Non-rooted
 
-1. Extract your installed BitChord APK using any APK extractor app.
-2. Install [LSPatch](https://github.com/LSPosed/LSPatch/releases) and (optionally) [Shizuku](https://shizuku.rikka.app/) for seamless install.
-3. Open LSPatch → **＋** → select BitChord APK → embed `BitChord-Rickroll.apk` as a module → patch → install.
+1. Download `BitChord-Rickroll.apk` from [Releases](../../releases).
+2. Install [LSPatch](https://github.com/JingMatrix/LSPatch).
+3. Open LSPatch → New patch → select BitChord → Integrated → add the module → Patch → Install.
 
-> Re-patch after every BitChord update since the patched APK won't auto-update.
+Re-patch after every BitChord update.
 
 ---
 
