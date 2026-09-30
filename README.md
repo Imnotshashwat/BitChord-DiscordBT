@@ -9,6 +9,12 @@ Xposed module that fakes a Hi-Res Lossless badge in BitChord for regular lossy t
 
 ---
 
+| Player screen | Discord |
+|:---:|:---:|
+| ![player](assets/player.png) | ![discord](assets/discord.png) |
+
+---
+
 ## What it hooks
 
 - **Now playing screen** — lossy tracks (Opus/AAC/MP3) show a Hi-Res Lossless badge instead of their actual quality.
