@@ -9,9 +9,9 @@ Xposed module that fakes a Hi-Res Lossless badge in BitChord for regular lossy t
 
 ---
 
-![player](assets/player.png)
+<img src="assets/player.png" width="320" />
 
-![discord](assets/discord.png)
+<img src="assets/discord.png" width="600" />
 
 ---
 
