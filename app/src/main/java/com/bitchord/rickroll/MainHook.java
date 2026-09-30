@@ -14,7 +14,7 @@ import io.github.libxposed.api.XposedModuleInterface;
 public final class MainHook extends XposedModule {
     private static final String TAG = "BitChordRickroll";
 
-    private static final String FAKE_DISCORD_QUALITY = "Hi-Res Lossless • FLAC • 2458 kbps • 24-bit • 96 kHz • Stereo";
+    private static final String FAKE_DISCORD_QUALITY = "Hi-Res Lossless \u2022 FLAC \u2022 24-bit \u2022 96 kHz \u2022 2458 kbps \u2022 Stereo";
 
     @Override
     public void onModuleLoaded(XposedModuleInterface.ModuleLoadedParam param) {

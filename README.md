@@ -7,24 +7,18 @@
 
 Xposed module that fakes a Hi-Res Lossless badge in BitChord for regular lossy tracks. Real FLAC, ALAC, and Dolby Atmos streams are untouched.
 
----
-
 <p align="center">
   <img src="assets/player.png" width="220" />
   <br/><br/>
   <img src="assets/discord.png" width="300" />
 </p>
 
----
-
 ## What it hooks
 
 - **Now playing screen** — lossy tracks (Opus/AAC/MP3) show a Hi-Res Lossless badge instead of their actual quality.
-- **Discord Rich Presence** — shows `Hi-Res Lossless • FLAC • 2458 kbps • 24-bit • 96 kHz • Stereo` for lossy tracks only.
+- **Discord Rich Presence** — shows `Hi-Res Lossless • FLAC • 24-bit • 96 kHz • 2458 kbps • Stereo` for lossy tracks only.
 
 Genuine addon streams keep their real specs. No launcher icon, no settings.
-
----
 
 ## Setup
 
@@ -41,8 +35,6 @@ Genuine addon streams keep their real specs. No launcher icon, no settings.
 3. Open LSPatch → New patch → select BitChord → Integrated → add the module → Patch → Install.
 
 Re-patch after every BitChord update.
-
----
 
 ## License
 
