@@ -14,6 +14,6 @@
         android:supportsRtl="true">
         <meta-data
             android:name="xposeddescription"
-            android:value="Fake Hi-Res badge for BitChord" />
+            android:value="Discord Hi-Res presence and Bluetooth rename hook for BitChord" />
     </application>
 </manifest>

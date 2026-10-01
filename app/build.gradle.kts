@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bitchord.rickroll"
+    namespace = "com.bitchord.discordbt"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.bitchord.rickroll"
+        applicationId = "com.bitchord.discordbt"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
