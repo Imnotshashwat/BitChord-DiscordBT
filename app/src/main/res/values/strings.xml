@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">BitChord Discord+BT</string>
-    <string name="app_description">Discord Hi-Res presence and Bluetooth rename hook for BitChord</string>
+    <string name="app_name">BitChord Rickroll</string>
+    <string name="app_description">Fake Hi-Res Lossless badge provider for BitChord. Xposed module.</string>
 </resources>
